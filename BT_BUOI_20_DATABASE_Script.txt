@@ -1,0 +1,14 @@
+CREATE DATABASE btbuoi20database;
+
+USE btbuoi20database;
+
+CREATE TABLE Student(
+	id int auto_increment,
+	FullName VARCHAR(225) NOT NULL,
+	Gender VARCHAR(225) CHARACTER SET latin1,
+	Age int(225),
+	City VARCHAR(225),
+	Weight FLOAT(10),
+	
+	primary key(id)
+);
